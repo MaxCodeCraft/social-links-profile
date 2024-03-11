@@ -101,15 +101,15 @@ body {
         width: 350px;
     }
     .social-links a {
-        width: 310px;
+        width: 300px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .container {
-        width: 335px;
+        width: 327px;
     }
     .social-links a {
-        width: 305px;
+        width: 277px;
     }
 }
