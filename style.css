@@ -30,8 +30,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
     max-width: 383px;
     background-color: var(--color-dark-grey);
     border-radius: 8px;
@@ -74,13 +78,13 @@ body {
     justify-content: center;
     align-items: center;
     color: var(--color-white);
-    text-align: center;
+    background-color: var(--color-grey);
     width: 303px;
     height: 45px;
-    background-color: var(--color-grey);
-    border-radius: 5px;
     margin-bottom: 15px;
+    border-radius: 5px;
     font-weight: 600;
+    text-align: center;
 }
 
 .social-links a:last-child {
